@@ -1,0 +1,27 @@
+.swim{
+    height: 200px;
+    width: 400px;
+    background-color: blueviolet;
+    position: relative;
+}
+.box{
+    position: relative;
+}
+
+.boy{
+    z-index: 3;
+}
+.ring{
+    z-index: 2;
+    top: -70px;
+}
+.water{
+    top: -150px;
+    z-index: 1;
+}
+.next {
+    width: 300px;
+    height: 700px;
+    border: 2px solid tomato;
+    margin-top: 20px;
+}
